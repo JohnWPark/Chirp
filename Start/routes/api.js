@@ -19,6 +19,7 @@ router.route('/posts/:id')
 
   //returns a particular post
   .get(function(req, res){
+    //the params object will parse out with the :id and pass it as a variable id
     res.send({message: 'TODO return post with ID ' + req.params.id});
   })
 

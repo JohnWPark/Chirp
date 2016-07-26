@@ -11,6 +11,7 @@
     <div id="main" class="container" ng-controller="mainController">
       <div class="col-md-offset-2 col-md-8">
         <div class="clearfix">
+
           <form ng-Submit="post()">
             <input required type="text" class="form-control" placeholder="Your Name" ng-model="newPost.created_by"/>
             <textarea required class="form-control" maxLength="200" rows="3" placeholder="Say Something" ng-model="newPost.text"></textarea>
